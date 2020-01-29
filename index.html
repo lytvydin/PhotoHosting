@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dina Lytvynenko</title>
+
+  <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="library/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+</head>
+
+<body id="page-top">
+<!-- navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-camera-retro"></i> image point</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#registration">registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#advantages">our advantages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#feedback">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- header -->
+  <header class="head">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">image hosting</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">we will keep your impressions</h2>
+         <!--  <div id="container"> --> 
+         <div id="container">  
+  <!-- manna button -->
+              <div class="row mx-auto mt-2 mb-5 row_button">
+                <div class="column mx-auto mt-2 mb-5">
+                  <a href="#about" class="c-button c-button--gooey">
+                    get loading
+                    <div class="c-button__blobs">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </a>
+                  
+                </div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+              <defs>
+                  <filter id="goo">
+                      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+                      <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                  </filter>
+              </defs>
+              </svg>
+  <!-- manna button end -->
+          </div>
+            <!--</div>-->
+      </div>
+    </div>
+  </header>
+<!-- registration section -->
+  <section id="registration" class="registration-section text-center">
+    <div class="container">
+      <div id="container">
+          <div class="photobanner">
+            <img class="first" src="img/1.jpg" alt="" />
+            <img src="img/2.jpeg" alt="" />
+            <img src="img/3.jpeg" alt="" />
+            <img src="img/4.jpeg" alt="" />
+            <img src="img/5.jpg" alt="" />
+            <img src="img/6.jpeg" alt="" />
+            <img src="img/1.jpg" alt="" />
+            <img src="img/2.jpeg" alt="" />
+            <img src="img/3.jpeg" alt="" />
+            <img src="img/4.jpeg" alt="" />
+          </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-8 mx-auto ">
+          <h2 class=" mb-4">registration</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">      
+            <form class="needs-validation form-horizontal" novalidate>
+              <div class="form-group">
+                <div class="mr-0 mr-sm-2 mb-3 mb-sm-0">
+                  <label for="validationCustomUsername">email</label>
+                    <input type="email" class="form-control" id="validationCustomUsername" placeholder="name@mail.com" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      please enter a valid mail
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="mr-0 mr-sm-2 mb-3 mb-sm-0">
+                  <label for="validationCustom03">password</label>
+                  <input type="password" class="form-control" id="validationCustom03" name="password" placeholder="8 or more characters"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                  <div class="invalid-feedback">
+                    your must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    you must agree before submitting
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary mb-5" type="submit">submit form</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- advantages section -->
+  <section id="advantages" class="advantages-section bg-light">
+    <div class="container">
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/11.jpeg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 advantages">
+            <div id="serv1" class="d-flex h-100">
+              <div class="advantages-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">reliability</h4>
+                <p class="mb-0 text-white-50">lorem ipsum dolor sit amet, vis at tantas audiam partiendo, ut mel suscipiantur consectetuer definitiones, vim zril incorrupte honestatis an. velit inermis no vis an!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0" id="servhr1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="advantages-center">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/13.jpeg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 advantages bg-hov">
+            <div id="serv2" class="d-flex h-100">
+              <div class="advantages-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">confidentiality</h4>
+                <p class="mb-0 text-white-50">lorem ipsum dolor sit amet, vis at tantas audiam partiendo, ut mel suscipiantur consectetuer definitiones, vim zril incorrupte honestatis an. velit inermis no vis an.</p>
+                <hr id="servhr2" class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/12.jpeg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 advantages">
+            <div id="serv3" class="d-flex h-100">
+              <div class="advantages-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">ease</h4>
+                <p class="mb-0 text-white-50">lorem ipsum dolor sit amet, vis at tantas audiam partiendo, ut mel suscipiantur consectetuer definitiones, vim zril incorrupte honestatis an. velit inermis no vis an!</p>
+                <hr id="servhr3" class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- feedback section -->
+  <section id="feedback" class="feedback-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+            <div class="form-group">
+              <label id="contact-text" for="contact-name">your name</label>
+              <input type="text" name="name" class="form-control" id="contact-name" placeholder="your name" data-rule="minlen:4" data-msg="please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label id="contact-text" for="contact-email">your email</label>
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="name@mail.com" data-rule="email" data-msg="please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label id="contact-text" for="contact-subject">subject</label>
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="subject" data-rule="minlen:4" data-msg="please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label id="contact-text" for="contact-message">your message</label>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="your message" rows="5" data-rule="required" data-msg="please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">your message has been sent. thank you!</div>
+            <div class="form-send">
+              <button type="submit" id="send-button" class="btn btn-primary">send message</button>
+            </div> 
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- contact section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="contact-card col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100" id="serv4">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary  mb-2"></i>
+              <h4 class="text-uppercase m-0">address</h4>
+              <hr class="my-4" id="servhr4">
+              <div class="small text-black-50">12345 main street, finland</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100" id="serv5">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">email</h4>
+              <hr class="my-4" id="servhr5">
+              <div class="small text-black-50">
+                <a class="contact-card-email" href="#">lytvydin@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100" id="serv6">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">phone</h4>
+              <hr class="my-4" id="servhr6">
+              <div class="small text-black-50">+1 (222) 333-44-55</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://www.facebook.com" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://codepen.io/Wiloo" class="mx-2">
+          <i class="fab fa-codepen"></i>
+        </a> 
+        <a href="https://github.com/lytvydin" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      By Dina Lytvynenko 2020
+    </div>
+  </footer>
+
+  <script src="library/jquery/jquery.min.js"></script>
+  <script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="library/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>
+ 
